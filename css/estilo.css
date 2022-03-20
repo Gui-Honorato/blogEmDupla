@@ -1,0 +1,59 @@
+ body {
+                margin: 0;
+                background-color: #1a1a2b;
+            }
+            /*Menu do topo*/
+            .topMen {
+                background-color: rgb(213, 225, 235);
+                padding: 1px 0 0 0;
+            }
+            .topMen img {
+                padding: 0 100px 0 0;
+                width: 300px;
+                height: 80px;
+            }
+            
+            .topMen ul li{
+                display: inline;
+                padding: 0 0 0 50px;
+                display: inline-block;
+            }
+            .topMen ul li a{
+                text-decoration: none;
+                color: #1a1a2b;
+            }
+            .topMen ul li a:hover {
+                color: rgb(53, 212, 53);
+            }
+            /*conteudo principal da pagina*/
+            .conteudoPrimare {
+                text-align: center;
+            }
+            .conteudoPrimare h1{
+                color: rgb(53, 212, 53);
+                text-align: justify;
+                padding: 0 200px 0 200px;
+                font-size: 31px;
+                font-family:  'Courier New', Courier, monospace;
+            }
+            .conteudoPrimare p {
+                padding: 0 200px 0 200px;
+                text-align: justify;
+                font-size: 20px;
+                color: rgb(160, 160, 160);
+                font-family: monospace;
+            }
+            .conteudoPrimare img {
+                float: left;
+                height: 200px;
+                width: 150px;
+                padding-left: 30px;
+            }
+            .conteudoPrimare a {
+               text-decoration: none;
+               color: rgb(160, 160, 160);
+            }
+            .conteudoPrimare a:hover {
+                background-color: aliceblue;
+                color: #1a1a2b;
+            }
